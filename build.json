@@ -1,7 +1,7 @@
 {
   "subprojects": [
     {
-      "name": "hand sanitizer launch",
+      "name": "hand-sanitizer-launch",
       "dir": "hand-sanitizer-launch",
       "artifacts": [
         "dist/"
