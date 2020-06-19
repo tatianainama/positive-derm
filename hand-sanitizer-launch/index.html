@@ -18,6 +18,11 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="/node_modules/material-design-lite/material.min.js"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,7 +30,33 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header positive-header">
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-icon">
+          <object type="image/svg+xml" data="img/logo-light.svg" class="positive-logo" height="32"></object>
+        </div>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="page-content positive-content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">Content</div>
+        </div>
+      </div>
+      <div class="positive-animation-area">
+        <ul class="plus-area">
+          <li>+</li>
+          <li>+</li>
+          <li>+</li>
+          <li>+</li>
+          <li>+</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
