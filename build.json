@@ -1,0 +1,18 @@
+{
+  "subprojects": [
+    {
+      "name": "hand sanitizer launch",
+      "dir": "hand-sanitizer-launch",
+      "artifacts": [
+        "dist/"
+      ]
+    },
+    {
+      "name": "ktchn",
+      "dir": "ktchn",
+      "artifacts": [
+        "dist/bundle.js"
+      ]
+    }
+  ]
+}
