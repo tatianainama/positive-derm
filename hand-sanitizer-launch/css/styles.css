@@ -41,38 +41,40 @@ ul.plus-area li {
   position: absolute;
   display: block;
   color: #ebe4e1;
-  animation: animate 30s ease-in infinite;
-  bottom: -150px;
+  animation: animate 20s ease-in infinite;
+  bottom: -100px;
 }
 
 ul.plus-area li:nth-child(1) {
   left: 0%;
   font-size: 15rem;
-  animation-delay: 0s;
+  animation-delay: 2s;
+  animation-duration: 15s;
 }
 
 ul.plus-area li:nth-child(2) {
   left: 5%;
   font-size: 40rem;
-  animation-delay: 5s;
+  animation-delay: 0s;
 }
 
 ul.plus-area li:nth-child(3) {
   left: 20%;
   font-size: 20rem;
-  animation-delay: 10s;
+  animation-delay: 7s;
 }
 
 ul.plus-area li:nth-child(4) {
   left: 3%;
   font-size: 10rem;
-  animation-delay: 15s;
+  animation-delay: 10s;
 }
 
 ul.plus-area li:nth-child(5) {
   left: 30%;
   font-size: 15rem;
-  animation-delay: 20s;
+  animation-delay: 15s;
+  animation-duration: 12s;
 }
 
 @keyframes animate {
@@ -80,6 +82,6 @@ ul.plus-area li:nth-child(5) {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-120vh);
+    transform: translateY(-110vh);
   }
 }
