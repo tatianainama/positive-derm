@@ -29,6 +29,7 @@ header.positive-header {
   width: 100%;
   background-color: var(--main-light-color);
   overflow: hidden;
+  z-index: -1;
 }
 
 ul.plus-area {
@@ -43,6 +44,7 @@ ul.plus-area li {
   color: #ebe4e1;
   animation: animate 20s ease-in infinite;
   bottom: -100px;
+  user-select: none;
 }
 
 ul.plus-area li:nth-child(1) {
