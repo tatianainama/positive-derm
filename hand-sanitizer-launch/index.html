@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap" rel="stylesheet">
 
   <script src="/node_modules/material-design-lite/material.min.js"></script>
 
@@ -30,28 +31,43 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header positive-header">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header positive-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent positive-header">
       <div class="mdl-layout__header-row">
         <div class="mdl-layout-icon">
-          <object type="image/svg+xml" data="img/logo-light.svg" class="positive-logo" height="32"></object>
+          <object type="image/svg+xml" data="img/logo-dark.svg" class="positive-logo" height="32"></object>
         </div>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="page-content positive-content">
         <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--12-col">Content</div>
+          <div class="mdl-cell mdl-cell--12-col">
+            <div class="positive-title">
+              <object type="image/svg+xml" data="img/logo-dark-subtitle.svg" class="positive-logo"></object>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--6-col positive-products">
+            <img src="img/products-sample.png" />
+          </div>
+          <div class="mdl-cell mdl-cell--6-col">
+            <div>
+              <div>
+                <h2>Alcohol en gel 90 y 220ml</h2>
+              </div>
+              <div class="positive-prod-desc">
+                <div>
+                  <h3>+</h3>
+                </div>
+                <div>
+                  <h5>70</h5>
+                  <p>Sanitizante. Antibacterial</p>
+                  <p>Elimina germenes y bacterias. Sin enjuague</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="positive-animation-area">
-        <ul class="plus-area">
-          <li>+</li>
-          <li>+</li>
-          <li>+</li>
-          <li>+</li>
-          <li>+</li>
-        </ul>
       </div>
     </main>
   </div>
